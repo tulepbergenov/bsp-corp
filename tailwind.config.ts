@@ -6,7 +6,15 @@ const config: Config = {
     "./app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        "app-fm-montserrat": ["var(--app-fm-montserrat)", "system-ui"],
+        "app-fm-roboto-condensed": [
+          "var(--app-fm-roboto-condensed)",
+          "system-ui",
+        ],
+      },
+    },
     container: {
       center: true,
       padding: "20px",

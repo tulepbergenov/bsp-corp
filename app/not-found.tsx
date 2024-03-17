@@ -8,9 +8,13 @@ export const metadata: Metadata = {
 const NotFound = () => {
   return (
     <section>
-      <header>
-        <h1>Страница не найдена</h1>
-      </header>
+      <div className="container">
+        <div>
+          <header>
+            <h1>Страница не найдена</h1>
+          </header>
+        </div>
+      </div>
     </section>
   );
 };
