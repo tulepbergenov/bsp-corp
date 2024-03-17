@@ -94,6 +94,9 @@ devDependencies:
   tailwindcss:
     specifier: ^3.3.0
     version: 3.4.1
+  tailwindcss-text-rendering:
+    specifier: ^1.0.2
+    version: 1.0.2
   typescript:
     specifier: ^5
     version: 5.4.2
@@ -3837,6 +3840,10 @@ packages:
     dependencies:
       '@babel/runtime': 7.24.0
     dev: false
+
+  /tailwindcss-text-rendering@1.0.2:
+    resolution: {integrity: sha512-KVEfQDvSXPqiwdzFJVuv+csxjVDy1yvcXX3rGaUQlTcsmS3SBXFBNkus1Foa7S0EQ8ZpnLCnakrjMSIyL1kCAw==}
+    dev: true
 
   /tailwindcss@3.4.1:
     resolution: {integrity: sha512-qAYmXRfk3ENzuPBakNK0SRrUDipP8NQnEY6772uDhflcQz5EhRdD7JNZxyrFHVQNCwULPBn6FNPp9brpO7ctcA==}

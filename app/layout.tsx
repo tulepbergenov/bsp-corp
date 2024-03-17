@@ -24,8 +24,8 @@ const RootLayout = ({
   children: ReactNode;
 }>) => {
   return (
-    <html lang="ru">
-      <body>
+    <html lang="ru" className="!h-full">
+      <body className="rendering-speed !h-full bg-white text-[16px] font-normal leading-[24px] text-[#484848] antialiased">
         <Providers>
           <main id="main">{children}</main>
         </Providers>

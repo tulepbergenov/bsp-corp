@@ -3,6 +3,14 @@
 @tailwind utilities;
 
 @layer base {
+  *::selection {
+    @apply bg-[#006DB1] text-white;
+  }
+
+  html {
+    color-scheme: light;
+  }
+
   html.lenis,
   html.lenis body {
     height: auto;
