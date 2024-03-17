@@ -1,3 +1,4 @@
+import { Providers } from "@/_app/providers";
 import "@/_app/styles/index.scss";
 import { appTitle } from "@/_shared/lib";
 import type { Metadata, Viewport } from "next";
@@ -25,7 +26,9 @@ const RootLayout = ({
   return (
     <html lang="ru">
       <body>
-        <main id="main">{children}</main>
+        <Providers>
+          <main id="main">{children}</main>
+        </Providers>
       </body>
     </html>
   );

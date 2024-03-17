@@ -2,7 +2,7 @@ import { appTitle } from "@/_shared/lib";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: appTitle("Страница не найдена"),
+  title: appTitle(),
 };
 
 const Home = () => {
