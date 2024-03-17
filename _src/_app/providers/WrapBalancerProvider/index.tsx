@@ -1,3 +1,5 @@
+"use client";
+
 import { ILayout } from "@/_shared/types";
 import { Provider } from "react-wrap-balancer";
 

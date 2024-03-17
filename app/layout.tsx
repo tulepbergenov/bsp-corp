@@ -1,6 +1,7 @@
 import { Providers } from "@/_app/providers";
 import "@/_app/styles/index.scss";
 import { appTitle, cn } from "@/_shared/lib";
+import { Footer } from "@/_widgets";
 import type { Metadata, Viewport } from "next";
 import { ReactNode } from "react";
 import { montserrat, robotoCondensed } from "./fonts";
@@ -31,7 +32,10 @@ const RootLayout = ({
     >
       <body className="rendering-speed font-app-fm-montserrat !h-full bg-white text-[16px] font-normal leading-[24px] text-[#484848] antialiased">
         <Providers>
-          <main id="main">{children}</main>
+          <main id="main" className="flex-auto">
+            {children}
+          </main>
+          <Footer />
         </Providers>
       </body>
     </html>
